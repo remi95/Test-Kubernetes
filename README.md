@@ -22,4 +22,7 @@ ansible-playbook plays/k8s-setup.yml
 ### Personnalisation
 Les scripts customs se trouvent dans **kube_conf/**.   
 
-<u>**Namespace**</u> : `kubectl apply -f remi-namespace.yaml`
+<u>Appliquer un **Namespace**</u> : `kubectl apply -f remi-namespace.yaml`    
+<u>Appliquer un **Pod**</u> : `kubectl apply -f hello-world-pod.yaml`     
+<u>Lancer un **déploiement**</u> : `kubectl apply -f deployment.yaml`    
+<u>Appliquer un **service** de **load-balancing**</u> : `kubectl apply -f load-balancer-service.yaml`
