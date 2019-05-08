@@ -1,0 +1,14 @@
+## When azure is used, you need to also set the following variables.
+## see docs/azure.md for details on how to get these values
+
+azure_tenant_id: 38e72bba-3c22-4382-9323-ac1612931297
+azure_subscription_id: b11b07b3-c7dc-4789-bee0-09b0d7b4d9e5
+# azure_aad_client_id:
+# azure_aad_client_secret:
+azure_resource_group: DevOps
+azure_location: francecentral
+azure_subnet_name: default
+# azure_security_group_name:
+azure_vnet_name: DevOps-vnet
+# azure_vnet_resource_group:
+# azure_route_table_name:
